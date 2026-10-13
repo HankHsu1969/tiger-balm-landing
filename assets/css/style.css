@@ -143,6 +143,10 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 10px); }
 .stars::before { content: "★★★★★"; }
 .stars-lg { font-size: 24px; letter-spacing: 4px; }
 
+/* ---------- Preview banner（正式上線前連同 HTML 一起刪除）---------- */
+.preview-banner { padding: 9px 20px; font-size: 13px; line-height: 1.6; letter-spacing: .05em; text-align: center; color: var(--ink); background: repeating-linear-gradient(-45deg, #ecd38f 0 14px, #e3c470 14px 28px); }
+.preview-banner strong { display: inline-block; margin-right: 10px; padding: 1px 10px; font-size: 12px; letter-spacing: .2em; color: var(--gold-2); background: var(--ink); border-radius: 999px; }
+
 /* ---------- Announce bar ---------- */
 .announce { background: var(--lacquer-deep); color: var(--gold-2); font-size: 13px; letter-spacing: .12em; overflow: hidden; }
 .announce-track { display: flex; justify-content: center; align-items: center; gap: 22px; padding: 8px 16px; white-space: nowrap; }
@@ -699,6 +703,7 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 10px); }
 
 @media (max-width: 1024px) {
   :root { --header-h: 66px; }
+  .announce-track > :nth-child(n+4) { display: none; }
   .menu-toggle { display: flex; }
   .main-nav {
     position: fixed; inset: var(--header-h) 0 auto 0;
