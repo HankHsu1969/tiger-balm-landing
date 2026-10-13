@@ -1,0 +1,9 @@
+# AI 產圖原始 PNG（約 40MB），網站使用的是 images/ 下的 WebP 壓縮版
+images/raw/
+
+# 本機預覽設定
+.claude/
+
+# 系統檔
+Thumbs.db
+.DS_Store

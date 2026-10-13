@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.example.com/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.example.com/images/tiger-balm-red-packshot-1200.webp</image:loc>
+      <image:title>虎標萬金油（紅）紅色軟膏 商品圖</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.example.com/images/tiger-balm-hero-2400.webp</image:loc>
+      <image:title>虎標萬金油 精品形象照</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.example.com/images/tiger-balm-red-open-jar-1600.webp</image:loc>
+      <image:title>虎標萬金油 開蓋質地特寫</image:title>
+    </image:image>
+  </url>
+</urlset>
